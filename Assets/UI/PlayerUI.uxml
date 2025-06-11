@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <HealthBarUI name="HealthBarUI" progress="105.8" focusable="true" style="align-items: auto; align-content: auto; opacity: 1;">
+        <Bindings>
+            <engine:DataBinding property="progress" data-source="project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4413694071827464959&amp;guid=62485618b8d062c48a8b79ee66bfe6ee&amp;type=3#default" binding-mode="ToTarget" data-source-type="Actor, Assembly-CSharp" data-source-path="currentHealth" update-trigger="WhenDirty" />
+        </Bindings>
+    </HealthBarUI>
+    <engine:Label text="Health" style="white-space: pre; align-items: auto; justify-content: flex-start; align-self: auto; height: 28px; width: 86px; align-content: auto; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=62485618b8d062c48a8b79ee66bfe6ee&amp;type=3#NotInter-Regular&quot;); -unity-font-style: bold; position: absolute; left: 30px; top: 32px; font-size: 24px;" />
+</engine:UXML>

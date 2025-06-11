@@ -1,0 +1,11 @@
+.panel {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.menu {
+}
+
+.unity-button {
+}
